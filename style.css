@@ -18,6 +18,7 @@ height:85vh;
   /* Add flex properties here */
   display:flex;
   flex-direction:row;
+  
 
 }
 
@@ -35,9 +36,8 @@ aside{
   background-color: aliceblue;
   /* Add flex properties here */
   display:flex
-  text-align:left;
   flex-wrap:wrap;
-
+  
 }
 
 footer{
