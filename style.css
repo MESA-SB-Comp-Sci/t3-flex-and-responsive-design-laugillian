@@ -3,29 +3,47 @@
 }
 header{
   /* Add height and width here */
+  height:30vh;
+  width:100vw;
+
   background-color: lightcyan;
   text-align: center;
 }
 
 .middle-section{
   /* Add height and width here */
-  background-color: lightpink;
+width:200vw;
+height:85vh;
+  
   /* Add flex properties here */
+  display:flex;
+  flex-direction:row;
+
 }
 
 aside{
   /* Add height and width here */
   background-color: lightseagreen;
+  height:85vh;
+  width:30vw;
 }
 
 .image-section{
   /* Add height and width here */
+  height:2vh;
+  width:85vw;
   background-color: aliceblue;
   /* Add flex properties here */
-  text-align: left;
+  display:flex
+  text-align:left;
+  flex-wrap:wrap;
+
 }
 
 footer{
   /* Add height and width here */
+  height:25vh;
+  width:100vw;
   background-color: lime;
 }
+
